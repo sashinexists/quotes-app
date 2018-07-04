@@ -73,10 +73,6 @@ async function run() {
     });
 
     REFRESH();
-
-    const HEADING = document.querySelector("h1");
-    HEADING.addEventListener("click", REFRESH);
-
 }
 
 run();
